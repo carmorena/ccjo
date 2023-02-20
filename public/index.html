@@ -77,7 +77,89 @@
     data-bs-offset="150"
   >
     <div class="body">
+      <!-- Nav Bar - Logo -->
+      <header
+        id="header"
+        class="header-effect-reveal"
+        data-plugin-options="{'stickyEnabled': true, 'stickyEnableOnBoxed': true, 'stickyEnableOnMobile': true, 'stickyStartAt': 130}"
+      >
+        <div class="header-body">
+          <div class="header-container container">
+            <div class="header-row">
+              <div class="header-column justify-content-start">
+                <div class="header-logo">
+                  <a href="index.html">
+                    <img
+                      alt="EZ"
+                      width="92"
+                      height="35"
+                      src="img/logo-simple.png"
+                    />
+                  </a>
+                </div>
+              </div>
+              <div class="header-column justify-content-end">
+                <div class="header-nav">
+                  <div
+                    class="header-nav-main header-nav-main-effect-1 header-nav-main-sub-effect-1"
+                  >
+                    <nav class="collapse">
+                      <ul class="nav flex-column flex-lg-row" id="mainNav">
+                        <li class="order-1 active">
+                          <a class="active" href="#"> Home </a>
+                        </li>
+                        <li class="order-2">
+                          <a href="#services"> Services </a>
+                        </li>
+                        <li class="order-3">
+                          <a href="#products"> Products </a>
+                        </li>
+                        <li class="order-4">
+                          <a href="#about"> Company </a>
+                        </li>
+                        <li class="order-5">
+                          <a href="#portfolio"> Portfolio </a>
+                        </li>
+                        <li class="order-6">
+                          <a href="#contact"> Contact </a>
+                        </li>
+                      </ul>
+                    </nav>
+                  </div>
+                  <div class="header-button d-none d-sm-flex ms-3">
+                    <a
+                      href="#contact"
+                      class="btn btn-outline btn-rounded btn-primary btn-4 btn-icon-effect-1"
+                    >
+                      <span class="wrap">
+                        <span>CONTACT US</span>
+                        <i class="fas fa-envelope"></i>
+                      </span>
+                    </a>
+                  </div>
+                  <button
+                    class="header-btn-collapse-nav ms-3"
+                    data-bs-toggle="collapse"
+                    data-bs-target=".header-nav-main nav"
+                  >
+                    <span class="hamburguer">
+                      <span></span>
+                      <span></span>
+                      <span></span>
+                    </span>
+                    <span class="close">
+                      <span></span>
+                      <span></span>
+                    </span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
       <div role="main" class="main">
+        <!-- Revolution Sliders -->
         <div
           id="home"
           class="slider-container slider-container-full-height rev_slider_wrapper"
@@ -326,141 +408,6 @@
             </ul>
           </div>
         </div>
-        <header
-          id="header"
-          class="header-with-borders header-with-borders-sticky"
-          data-plugin-options="{'stickyEnabled': true, 'stickyEnableOnBoxed': true, 'stickyEnableOnMobile': true, 'stickyStartAtElement': '#header'}"
-        >
-          <div class="header-body">
-            <div class="header-container">
-              <div class="header-row">
-                <div class="header-column justify-content-start">
-                  <div class="header-logo border-start-0 px-4">
-                    <a href="index.html">
-                      <img
-                        alt="EZ"
-                        width="75"
-                        height="50"
-                        data-change-src="img/logo-small.png"
-                        src="img/logo-small.png"
-                      />
-                    </a>
-                  </div>
-                  <div class="header-nav justify-content-lg-start ms-3">
-                    <div
-                      class="header-nav-main header-nav-main-uppercase header-nav-main-effect-1 header-nav-main-sub-effect-1"
-                    >
-                      <nav class="collapse">
-                        <ul class="nav flex-column flex-lg-row" id="mainNav">
-                          <li class="dropdown">
-                            <a
-                              href="#"
-                              data-hash
-                              class="dropdown-item dropdown-toggle active"
-                            >
-                              Home
-                            </a>
-                          </li>
-                          <li>
-                            <a
-                              href="#services"
-                              data-hash
-                              data-hash-offset="70"
-                              class="dropdown-item"
-                              >Services</a
-                            >
-                          </li>
-                          <li></li>
-                          <li>
-                            <a
-                              href="#products"
-                              data-hash
-                              data-hash-offset="70"
-                              class="dropdown-item"
-                              >products</a
-                            >
-                          </li>
-                          <li>
-                            <a
-                              href="#about"
-                              data-hash
-                              data-hash-offset="70"
-                              class="dropdown-item"
-                              >Company</a
-                            >
-                          </li>
-                          <li>
-                            <a
-                              href="#portfolio"
-                              data-hash
-                              data-hash-offset="70"
-                              class="dropdown-item"
-                              >Portfolio</a
-                            >
-                          </li>
-                          <li>
-                            <a
-                              href="#contact"
-                              data-hash
-                              data-hash-offset="70"
-                              class="dropdown-item"
-                              >Contact Us</a
-                            >
-                          </li>
-                        </ul>
-                      </nav>
-                    </div>
-                  </div>
-                </div>
-                <div class="header-column justify-content-end">
-                  <ul
-                    class="header-social-icons social-icons social-icons-transparent border-end-0 d-none d-xl-flex text-3 px-4"
-                  >
-                    <li class="social-icons-facebook">
-                      <a
-                        href="http://www.facebook.com/"
-                        target="_blank"
-                        title="Facebook"
-                        ><i class="fab fa-facebook-f"></i
-                      ></a>
-                    </li>
-                    <li class="social-icons-twitter">
-                      <a
-                        href="http://www.twitter.com/"
-                        target="_blank"
-                        title="Twitter"
-                        ><i class="fab fa-twitter"></i
-                      ></a>
-                    </li>
-                    <li class="social-icons-instagram">
-                      <a
-                        href="http://www.instagram.com/"
-                        target="_blank"
-                        title="Instagram"
-                        ><i class="fab fa-instagram"></i
-                      ></a>
-                    </li>
-                  </ul>
-                  <button
-                    class="header-btn-collapse-nav mx-3"
-                    data-bs-toggle="collapse"
-                    data-bs-target=".header-nav-main nav"
-                  >
-                    <span class="hamburguer">
-                      <span></span>
-                      <span></span>
-                      <span></span>
-                    </span>
-                    <span class="close">
-                      <span></span>
-                      <span></span>
-                    </span>
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </header>
         <!-- About -->
         <section id="about" class="section">
           <div class="container pb-md-5 mb-lg-5">
@@ -511,6 +458,7 @@
             </div>
           </div>
         </section>
+        <!-- About images-->
         <section
           class="section section-content-pull-top pull-top-level-2 pull-top-always bg-quaternary"
         >

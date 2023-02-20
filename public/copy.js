@@ -1,4 +1,140 @@
-;<footer id="footer" class="footer-hover-links-light mt-0">
+    <header
+          id="header"
+          class="header-with-borders header-with-borders-sticky"
+          data-plugin-options="{'stickyEnabled': true, 'stickyEnableOnBoxed': true, 'stickyEnableOnMobile': true, 'stickyStartAtElement': '#header'}"
+        >
+          <div class="header-body">
+            <div class="header-container">
+              <div class="header-row">
+                <div class="header-column justify-content-start">
+                  <div class="header-logo border-start-0 px-4">
+                    <a href="index.html">
+                      <img
+                        alt="EZ"
+                        width="75"
+                        height="50"
+                        data-change-src="img/logo-small.png"
+                        src="img/logo-small.png"
+                      />
+                    </a>
+                  </div>
+                  <div class="header-nav justify-content-lg-start ms-3">
+                    <div
+                      class="header-nav-main header-nav-main-uppercase header-nav-main-effect-1 header-nav-main-sub-effect-1"
+                    >
+                      <nav class="collapse">
+                        <ul class="nav flex-column flex-lg-row" id="mainNav">
+                          <li class="dropdown">
+                            <a
+                              href="#"
+                              data-hash
+                              class="dropdown-item dropdown-toggle active"
+                            >
+                              Home
+                            </a>
+                          </li>
+                          <li>
+                            <a
+                              href="#services"
+                              data-hash
+                              data-hash-offset="70"
+                              class="dropdown-item"
+                              >Services</a
+                            >
+                          </li>
+                          <li></li>
+                          <li>
+                            <a
+                              href="#products"
+                              data-hash
+                              data-hash-offset="70"
+                              class="dropdown-item"
+                              >products</a
+                            >
+                          </li>
+                          <li>
+                            <a
+                              href="#about"
+                              data-hash
+                              data-hash-offset="70"
+                              class="dropdown-item"
+                              >Company</a
+                            >
+                          </li>
+                          <li>
+                            <a
+                              href="#portfolio"
+                              data-hash
+                              data-hash-offset="70"
+                              class="dropdown-item"
+                              >Portfolio</a
+                            >
+                          </li>
+                          <li>
+                            <a
+                              href="#contact"
+                              data-hash
+                              data-hash-offset="70"
+                              class="dropdown-item"
+                              >Contact Us</a
+                            >
+                          </li>
+                        </ul>
+                      </nav>
+                    </div>
+                  </div>
+                </div>
+                <div class="header-column justify-content-end">
+                  <ul
+                    class="header-social-icons social-icons social-icons-transparent border-end-0 d-none d-xl-flex text-3 px-4"
+                  >
+                    <li class="social-icons-facebook">
+                      <a
+                        href="http://www.facebook.com/"
+                        target="_blank"
+                        title="Facebook"
+                        ><i class="fab fa-facebook-f"></i
+                      ></a>
+                    </li>
+                    <li class="social-icons-twitter">
+                      <a
+                        href="http://www.twitter.com/"
+                        target="_blank"
+                        title="Twitter"
+                        ><i class="fab fa-twitter"></i
+                      ></a>
+                    </li>
+                    <li class="social-icons-instagram">
+                      <a
+                        href="http://www.instagram.com/"
+                        target="_blank"
+                        title="Instagram"
+                        ><i class="fab fa-instagram"></i
+                      ></a>
+                    </li>
+                  </ul>
+                  <button
+                    class="header-btn-collapse-nav mx-3"
+                    data-bs-toggle="collapse"
+                    data-bs-target=".header-nav-main nav"
+                  >
+                    <span class="hamburguer">
+                      <span></span>
+                      <span></span>
+                      <span></span>
+                    </span>
+                    <span class="close">
+                      <span></span>
+                      <span></span>
+                    </span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </header>
+
+<footer id="footer" class="footer-hover-links-light mt-0">
   <div class="container">
     <div class="row">
       <div class="col-lg-2 align-self-center text-center mb-5 mb-lg-0">
